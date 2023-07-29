@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+<fieldset>
+    <legend><h2>Datos Personales</h2></legend>
+
+<form id="datos_personales">
+ <label for="dpi"> DPI:</label>
+ <input type="text" id="dpi" name="dpi" placeholder="Ingrese el dpi">
+    <br>
+<label for="nombre"> Nombres:  </label>
+<input type="text" id="nombres" name="nombres" placeholder="Ingrese los Nombres">
+    <br>
+<label for="apellidos"> Apellidos:  </label>
+<input type="text" id="apellidos" name="apellidos" placeholder="Ingrese los apellidos">
+    <br>
+<label for="direccion"> Direccion:  </label>
+<input type="text" id="direccion" name="direccion" placeholder="Ingrese la dirección">
+    <br>
+<label for="fecha_nacimiento"> Fecha nacimiento:  </label>
+<input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+<fieldset>
+    <legend>Ingrese el género</legend>
+    <input type="radio"  name="genero"  id="r1" value="masculino">
+    <label for="r1">Masculino</label>
+    <br>
+    <input type="radio"  name="genero"  id="r2" value="femenino">
+    <label for="r2">Femenino</label>
+    <br>
+    <input type="radio"  name="genero"  id="r3" value="Otro">
+    <label for="r3">Otro</label>
+</fieldset>
+<fieldset>
+    <legend>Seleccione una educación terminada</legend>
+    <input type="checkbox" name="primaria" value="Primaria" id="check1">
+    <label for="check1">Primaria</label>
+    <input type="checkbox" name="basico" value="Basico" id="check2">
+    <label for="check2">Basico</label>
+    <input type="checkbox" name="diversificado" value="Diversificado" id="check3">
+    <label for="check3">Diversificado</label>
+    <input type="checkbox" name="universitario" value="Universitario" id="check4">
+    <label for="check4">Universitario</label>
+    <input type="checkbox" name="postgrado" value="postgrado" id="check5">
+    <label for="check5">Postgrado</label>
+    <input type="checkbox" name="doctorado" value="doctorado" id="check6">
+    <label for="check6">Doctorado</label>
+</fieldset>
+<fieldset>
+    <legend>En que departamento trabajas</legend>
+    <select name="departamento" id="departamento">
+        <option selected>Seleccione una opcion </option>
+        <option value="1">Sistemas de informacion</option>
+        <option value="2">Sistemas de analisis de sistemas</option>
+        <option value="3">Sistemas de QA</option>
+        <option value="4">Sistemas de base de datos</option>
+        <option value="5">Sistemas  de seguridad informatica</option>
+    </select>
+</fieldset>
+<fieldset>
+    <legend>Datos de salario</legend>
+    <label for="salario">Ingrese el salario</label>
+    <input type="number" id="salario" name="salario" placeholder="5,000.00">
+    <br>
+    <br>
+    
+    <label for="observaciones">Observaciones</label>
+    <textarea id = "observaciones" name="Observaciones" cols="50">
+
+    </textarea>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar</button>
+
+</fieldset>
+
+
+
+</form>
+</fieldset>
+    
+</body>
+</html>
